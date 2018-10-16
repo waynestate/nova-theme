@@ -1,5 +1,6 @@
 {
     "name": "waynestate/nova-theme",
+    "version": "0.1.0",
     "description": "Wayne State University Laravel Nova theme.",
     "keywords": [
         "laravel",
