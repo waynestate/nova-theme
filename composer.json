@@ -1,0 +1,30 @@
+{
+    "name": "waynestate/nova-theme",
+    "description": "Wayne State University Laravel Nova theme.",
+    "keywords": [
+        "laravel",
+        "nova",
+        "theme"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Waynestate\\NovaTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Waynestate\\NovaTheme\\ThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
